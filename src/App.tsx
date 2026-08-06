@@ -20,7 +20,7 @@ import LiveSocialProof from "./LiveSocialProof";
 import "./landing.css";
 
 // ── Số Zalo — cập nhật ở đây để thay đổi toàn trang ──────────────
-const ZALO_PHONE = "0393678500"; // ← sửa số thật của bạn
+const ZALO_PHONE = "0934688632";
 const ZALO_URL = `https://zalo.me/${ZALO_PHONE}`;
 
 function ZaloFab() {
