@@ -10,37 +10,37 @@ export function SolutionsSection() {
 
   const tabs = [
     {
-      title: "Chủ Shop / SMEs (Bán Ads)",
-      subtitle: "Thoát cảnh quảng cáo lôm côm không ra đơn",
-      pain: "Quay video bán hàng đặt máy chết một góc, review như đọc vẹt. Sản phẩm nhìn kém sang, 'hàng chợ', đổ tiền chạy quảng cáo là lỗ.",
-      solution: "Dạy Ma trận Cỡ Cảnh (Toàn - Trung - Cận) để điều hướng mắt khán giả. Dùng Cảnh Cận (Close-up - Nam châm chi tiết) để khoe giá trị tinh hoa của sản phẩm, kích thích sự khao khát. Dùng ánh sáng khối làm sản phẩm nhìn đắt tiền. Dùng B-roll làm bằng chứng chốt sale.",
-      leftLabel: "LÔM CÔM / HÀNG CHỢ",
-      leftDesc: "Đặt máy từ xa góc tĩnh, nói đều đều, đánh sáng phòng phẳng lì rọi thẳng mặt.",
-      rightLabel: "CHỈN CHU / ĐẤT TIỀN",
-      rightDesc: "Luân chuyển cỡ cảnh theo nhịp nói, cận cảnh đặc tả giọt nước/đường nét sắc nét, setup ánh sáng ven nổi khối.",
-      icon: "🏪"
-    },
-    {
-      title: "Chuyên gia / KOC (Nhân hiệu)",
-      subtitle: "Hệ thống sản xuất nhàn hạ, tự nhiên",
-      pain: "Tự nghĩ kịch bản, tự setup lỉnh kỉnh mỗi ngày dẫn đến kiệt sức rồi bỏ hoang kênh. Đứng trước ống kính là bị đơ cứng, gượng gạo.",
-      solution: "Setup định dạng Talking Head cố định bối cảnh 1 lần dùng mãi mãi. Dùng AI viết kịch bản 2 cột trong 1 phút. Áp dụng góc quay chéo 3/4 (giả lập cuộc hội thoại) kết hợp hành động vật lý (pha trà, lật sách) để cơ thể hát cùng ngôn từ tự nhiên, toát lên sự đĩnh đạc.",
+      title: "Bị đơ cứng & Ngại ống kính",
+      subtitle: "Phong thái đĩnh đạc, tự nhiên như hơi thở",
+      pain: "Nhìn chằm chằm vào camera gây áp lực lớn, nói lóng ngóng như 'trả bài', quay đi quay lại hàng chục lần vẫn không tự nhiên. Cứ bấm record là bị khớp.",
+      solution: "Góc quay chéo 3/4 giả lập cuộc hội thoại 1-1 kết hợp hành động vật lý tự nhiên (pha trà, lật sách, viết sổ). Cơ thể thả lỏng, giọng nói tự nhiên, toát lên phong thái chuyên gia đĩnh đạc — không cần diễn.",
       leftLabel: "LÊN HÌNH ĐƠ CỨNG",
       leftDesc: "Mắt nhìn chằm chằm trực diện vào camera gây áp lực lớn cho người xem, nói vấp phải quay lại nhiều lần.",
       rightLabel: "ĐĨNH ĐẠC & TỰ NHIÊN",
       rightDesc: "Góc quay chéo 3/4 thoải mái, cơ thể chuyển động theo hành động vật lý tự nhiên, đắp B-roll che lỗi vấp mượt mà.",
-      icon: "🧠"
+      icon: "🎯"
     },
     {
-      title: "Editor / Tự học (Thẩm mỹ xịn)",
-      subtitle: "Thoát mác 'Editor bình dân'",
-      pain: "Lầm tưởng video đẹp là lạm dụng nhiều hiệu ứng lật trang 3D, giật chớp. Kết quả làm video bị rối mắt, sến sẩm và mất định vị chuyên nghiệp.",
-      solution: "Đập tan ảo giác về phần mềm. Dạy kỹ thuật Cut on Action (chuyển cảnh vật lý tàng hình) và chuyển động cơ học tự nhiên (vung tay, lướt vật thể qua camera) giúp video mượt mà như một dòng chảy liên tục.",
-      leftLabel: "HIỆU ỨNG SẾN SẨM",
-      leftDesc: "Chèn hiệu ứng lật trang 3D lòe loẹt, chuyển cảnh giật cục phá vỡ sự thoải mái thị giác.",
-      rightLabel: "CHUYỂN CẢNH TÀNG HÌNH",
-      rightDesc: "Nối cảnh mượt mà bằng chuyển động vật lý cơ học, người xem không nhận ra vết cắt nhưng không thể rời mắt.",
-      icon: "🎬"
+      title: "Vắt óc nghĩ nội dung mỗi ngày",
+      subtitle: "AI viết kịch bản 2 cột trong 5 phút",
+      pain: "Mất 2-3 tiếng mỗi ngày chỉ để nghĩ xem hôm nay nói gì, viết kịch bản dở dang rồi bỏ hoang kênh vì kiệt sức. Áp lực ý tưởng là lý do số 1 khiến kênh chết yểu.",
+      solution: "Ứng dụng Bộ Prompt AI chuyên sâu cho Nhân hiệu. Biến tri thức ngầm trong đầu bạn thành kịch bản 2 cột (Lời thoại + Gợi ý hình ảnh) chuẩn cấu trúc giữ chân người xem — chỉ trong 5 phút.",
+      leftLabel: "VẮT ÓC MỖI NGÀY",
+      leftDesc: "2-3 tiếng chỉ để nghĩ chủ đề, cặm cụi viết từng câu thoại — kiệt sức rồi bỏ hoang kênh.",
+      rightLabel: "AI LO VIỆC VẮT ÓC",
+      rightDesc: "Gõ chủ đề vào Prompt — AI xuất ngay kịch bản 2 cột hoàn chỉnh đúng văn phong của bạn trong 5 phút.",
+      icon: "⚡"
+    },
+    {
+      title: "Video phẳng lì, thiếu chiều sâu uy tín",
+      subtitle: "Setup 1 lần — hình ảnh đắt tiền mãi mãi",
+      pain: "Đứng nói suông từ đầu đến cuối trước bức tường trắng hoặc phòng tối, video nhàm chán làm giảm 50% uy tín chuyên môn. Khán giả lướt qua trong 3 giây đầu tiên.",
+      solution: "Setup ánh sáng 3 điểm nổi khối cố định bối cảnh (bật máy lên là quay). Phủ B-roll (Bằng chứng thị giác) che triệt để các điểm nói vấp — video mượt mà liên tục, khán giả không thể rời mắt.",
+      leftLabel: "PHẲNG LÌ, THIẾU ÁP",
+      leftDesc: "Ánh sáng phòng nhợt nhạt, bối cảnh lộn xộn, đứng nói suông không B-roll — trông như quay tạm.",
+      rightLabel: "NỔI KHỐI 3D ĐẮT TIỀN",
+      rightDesc: "Ánh sáng 3 điểm tạo chiều sâu, B-roll phủ đúng lúc, khung hình nổi khối như Studio chuyên nghiệp.",
+      icon: "✨"
     }
   ];
 
@@ -48,10 +48,10 @@ export function SolutionsSection() {
     <Sec maxWidth={900}>
       <FadeIn>
         <div style={{ textAlign: "center", marginBottom: 44 }}>
-          <Label>Phân khúc nhu cầu</Label>
-          <SH>Chọn Giải Pháp Cho Vấn Đề Của Bạn</SH>
+          <Label>Điểm Nghẽn Của Bạn</Label>
+          <SH>Chọn Đúng Rào Cản Bạn Đang Gặp Phải</SH>
           <p style={{ fontSize: 18, color: "var(--cl-text-muted, #888)", maxWidth: 620, margin: "-18px auto 0", lineHeight: 1.7 }}>
-            Không học chung chung. Hãy chọn đúng toa giải pháp giải quyết trực tiếp điểm nghẽn của bạn.
+            Không học chung chung. Hệ thống này giải quyết trực tiếp điểm nghẽn cụ thể của người xây kênh Nhân hiệu.
           </p>
         </div>
       </FadeIn>

@@ -141,11 +141,11 @@ export const DEFAULT_CONTENT: PageContent = {
   value: "5.000.000",
 
   transferPrefix: "XAYKENH",
-  checkoutTitle: "Quay Dựng Chuyển Đổi:<br />Kiến tạo niềm tin từ sự mượt mà thị giác",
+  checkoutTitle: "Hệ Thống Xây Kênh & Trợ Lý AI:<br />Chấm dứt tự biên tự diễn, lên hình đĩnh đạc",
   checkoutFeatures: [
-    "Quy trình xây kênh Tiktok/Reels chuẩn tệp Chuyên gia",
-    "Trợ lý AI viết kịch bản hàng loạt, nhường việc vắt óc cho AI",
-    "Setup không gian quay tĩnh 1 lần dùng mãi mãi",
+    "6 buổi đào tạo thực chiến (Video quay sẵn, xem lại mãi mãi)",
+    "Trọn bộ Prompt AI viết kịch bản 2 cột — tương thích ChatGPT/Gemini",
+    "Hướng dẫn setup góc quay Talking Head đĩnh đạc 1 lần dùng mãi",
     "Kỹ thuật vũ đạo ống kính & tàng hình vết cắt",
     "Kho 50+ âm thanh điện ảnh (SFX) bốc nhất",
     "Kho Nhạc Nền MasterClass Độc Bản sạch bản quyền"
@@ -153,27 +153,28 @@ export const DEFAULT_CONTENT: PageContent = {
 
   // ── Hero ──
   heroBadge: "HỆ THỐNG XÂY KÊNH CHUYÊN GIA",
-  heroHeadline1: "Quay Dựng Chuyển Đổi.",
-  heroHeadline2: "Kiến tạo niềm tin từ\nsự mượt mà thị giác.",
+  heroHeadline1: "Chấm Dứt Sự Bào Mòn.",
+  heroHeadline2: "Tự động hóa kịch bản, lên hình\ntự nhiên — xây kênh không kiệt sức.",
   heroPoem: [
-    "Không còn gượng gạo, đơ cứng,",
+    "Không còn vắt óc mỗi ngày,",
     "Cơ thể hát cùng ngôn từ, đĩnh đạc tự nhiên."
   ],
-  heroAccentLine: "Video ngắn bản chất là một Slide Thuyết trình ở cấp độ động. Sự mượt mà của khung hình chính là ngôn ngữ chốt sale quyền lực nhất.",
-  heroSub: "Hệ thống sản xuất nội dung tự động giúp bạn xóa bỏ bệnh \"đơ cứng\" trước camera. Biến mỗi video thành một điểm chạm êm ái, bẻ gãy rào cản phòng thủ và kiến tạo niềm tin tuyệt đối từ khách hàng.",
-  heroCta: "KIẾN TẠO NIỀM TIN NGAY HÔM NAY",
+  heroAccentLine: "Tự động hóa khâu kịch bản với Bộ Prompt AI chuyên sâu và làm chủ định dạng quay cố định. Lên hình tự nhiên, đĩnh đạc và duy trì tần suất ra video đều đặn mà không bị vắt kiệt năng lượng.",
+  heroSub: "Hệ thống sản xuất nội dung giúp bạn xóa bỏ bệnh \"đơ cứng\" trước camera và giải phóng hoàn toàn gánh nặng kịch bản. Tập trung vào chuyên môn, để hệ thống lo phần còn lại.",
+  heroCta: "ĐĂNG KÝ VÀ SỞ HỮU BỘ LỆNH AI NGAY",
   heroVideoYoutubeId: "CaDZiACYrV8",
   heroSubPrice: "(Hệ thống đóng gói hoàn chỉnh. Học trực tuyến 100%)",
 
   // ── Pain (Nỗi đau) ──
-  painLabel: "SỰ THẬT TÀN NHẪN",
-  painHeading: "Khách hàng không mua vì họ \"phòng thủ\", không phải vì sản phẩm tệ.",
-  painQuote: "Khi bạn giỏi chuyên môn nhưng lên hình lại lóng ngóng, người xem sẽ lập tức nghi ngờ năng lực thực sự của bạn. Sự ma sát thị giác đã giết chết niềm tin.",
-  painSub: "Ba triệu chứng khiến uy tín chuyên gia của bạn tụt dốc thảm hại trên video:",
+  painLabel: "ĐIỂM NGHẼN CỐT LÕI",
+  painHeading: "Bạn rất vững chuyên môn, nhưng cứ bật máy quay lên là bị \"khớp\"?",
+  painQuote: "Xây dựng thương hiệu cá nhân cần sự bền bỉ. Nhưng rất nhiều người làm nghề (dịch vụ, đào tạo, review) khởi đầu rất khí thế, rồi nhanh chóng rơi vào bế tắc.",
+  painSub: "Bốn lý do khiến người giỏi chuyên môn vẫn thất bại khi xây kênh:",
   pains: [
-    "❌ Lệch pha nhịp điệu: Bật máy lên là đơ cứng, gượng gạo. Cảm giác như đang \"trả bài\" khiến não bộ người xem lập tức phòng thủ.",
-    "❌ Sự mù lòa tĩnh lặng: Góc máy đứng im một chỗ, làm não bộ mệt mỏi, sinh ra \"ma sát thị giác\" khiến họ lập tức lướt qua.",
-    "❌ Bản slide vô hồn: Đứng nói suông từ đầu đến cuối mà không có Bằng chứng thị giác (B-roll), khiến lời nói trở nên sáo rỗng."
+    "❌ Áp lực ý tưởng: Đi làm về mệt mỏi lại phải ngồi vắt óc nghĩ chủ đề, cặm cụi viết từng câu thoại đến kiệt sức.",
+    "❌ Bệnh đơ camera: Cố nhớ từng chữ khiến cơ thể gượng gạo, ánh mắt đờ đẫn, làm mất đi sự tự tin và đĩnh đạc thường ngày.",
+    "❌ Sản xuất lắt nhắt: Mỗi ngày hì hục kê bàn, dựng đèn, quay hỏng hàng chục lần chỉ để lấy 1 video ngắn.",
+    "❌ Hình ảnh thiếu đồng bộ: Khung hình lộn xộn, setup chắp vá khiến diện mạo thương hiệu trở nên thiếu chỉn chu."
   ],
 
   // ── Attention ──
@@ -198,34 +199,36 @@ export const DEFAULT_CONTENT: PageContent = {
 
   // ── Cycle ──
   cycleLabel: "VÒNG LẶP THỬ SAI",
-  cycleHeading: "Sự mượt mà không sinh ra từ bộ lọc (filter) của phần mềm.",
-  cyclePara: "Nhiều người nghĩ muốn video \"đắt tiền\" thì phải mua điện thoại đời mới nhất, hoặc tải các app có kỹ xảo đồ họa phức tạp.",
+  cycleHeading: "Đi tìm lối tắt vô tình làm giảm uy tín của chính bạn.",
+  cyclePara: "Để đối phó với việc bí ý tưởng và sợ camera, nhiều người chọn cách:",
   cycleItems: [
-    { fail: "Ranh giới Chuyên gia", why: "Sự khác biệt nằm ở Tư duy Không gian và sự tự nhiên. Người chuyên nghiệp biết cách mượn chính những chuyển động vật lý thật để kiến tạo niềm tin." }
+    { fail: "Đọc máy nhắc chữ (Teleprompter)", why: "Biến bạn thành một cỗ máy đọc bài vô hồn. Người xem cảm nhận ngay sự thiếu kết nối chân thật — và lập tức mất tin tưởng." },
+    { fail: "Cố nhảy múa, diễn hài đu trend", why: "Có thể mang lại lượt xem giải trí, nhưng khách hàng mục tiêu sẽ mất đi sự tôn trọng dành cho một người làm việc nghiêm túc." }
   ],
+  cycleConclusion: "Thứ bạn cần không phải là thuộc lòng kịch bản hay diễn hài. Thứ bạn cần là một Hệ thống sản xuất được chuẩn hóa.",
 
   // ── Discovery ──
-  discoveryLabel: "CÔNG THỨC BÍ MẬT",
-  discoveryHeading: "Lộ trình thao túng tâm lý: Từ Ánh nhìn đến Chuyển đổi",
-  discoverySub: "Sự mượt mà thị giác không đến từ thiết bị, nó đến từ việc làm chủ quy luật tâm lý của người xem:",
+  discoveryLabel: "BẢN CHẤT SỰ TỰ NHIÊN",
+  discoveryHeading: "Sức hút đến từ sự đồng bộ giữa không gian và hình thể.",
+  discoverySub: "Theo tâm lý học thị giác, người xem chỉ tin tưởng khi họ cảm nhận được sự thoải mái của người nói:",
   discoveryItems: [
     {
-      title: "Khung hình nổi khối",
-      desc: "Đánh sáng 3 điểm tôn nét đĩnh đạc. Setup không gian tĩnh một lần dùng mãi mãi, không cần loay hoay mỗi ngày.",
+      title: "Bối cảnh tĩnh (Talking Head)",
+      desc: "Thiết lập một góc máy với ánh sáng nổi khối chuẩn Studio. Setup đúng 1 lần duy nhất tại bàn làm việc — dùng cho hàng trăm video về sau, không cần loay hoay kê bàn dựng đèn mỗi ngày.",
       gif: "/gifs/lighting-art.gif",
-      placeholderLabel: "Ánh sáng"
+      placeholderLabel: "Setup 1 lần"
     },
     {
-      title: "Vũ đạo ống kính",
-      desc: "Sử dụng góc chéo 3/4 giả lập hội thoại tự nhiên. Xóa bỏ cảm giác gượng gạo như đang bị thẩm vấn trước máy quay.",
+      title: "Cơ thể hát cùng ngôn từ",
+      desc: "Giải phóng đôi tay, dùng cử chỉ để minh họa từ khóa. Khi cơ thể bạn tự nhiên, não bộ khán giả sẽ ngay lập tức ghi nhận sự chân thành — xóa bỏ hoàn toàn bệnh đơ cứng trước ống kính.",
       gif: "/gifs/spatial-direction.gif",
-      placeholderLabel: "Góc quay"
+      placeholderLabel: "Tự nhiên"
     },
     {
-      title: "Cắt ghép tàng hình",
-      desc: "Mượn chuyển động vật lý để giấu nhẹm vết cắt. Trám B-roll vào những lúc nói vấp để video luôn mượt mà.",
+      title: "Bằng chứng thay lời nói (B-roll)",
+      desc: "Nhường không gian cho cảnh trám. B-roll vừa giúp bài chia sẻ sinh động, vừa khéo léo che đi những đoạn lỡ miệng nói vấp — video mượt mà như một dòng chảy liên tục.",
       gif: "/gifs/mechanical-cut.gif",
-      placeholderLabel: "Tàng hình"
+      placeholderLabel: "B-roll"
     }
   ],
 
@@ -240,65 +243,69 @@ export const DEFAULT_CONTENT: PageContent = {
     "❌ Video buồn ngủ, đứt đoạn ➞ ✅ Bằng chứng thép tàng hình: Dùng B-roll che vết cắt êm ái."
   ],
 
-  skillsLabel: "TRỤ CỘT KIẾN TẠO SỰ MƯỢT MÀ",
-  skillsHeading: "Hệ thống hóa toàn bộ chuỗi tâm lý hành vi chỉ với 4 nguyên lý:",
+  skillsLabel: "4 KỸ NĂNG CỐT LÕI",
+  skillsHeading: "4 Kỹ năng giúp bạn làm chủ ống kính.",
   skillCards: [
-    { n: "01", title: "Cơ thể hát cùng ngôn từ", desc: "Loại bỏ bệnh đơ cứng bằng cách đồng bộ nhịp độ cơ thể và giọng nói. Biến video thành cuộc trò chuyện sâu sắc.", gif: "/gifs/invisible-cut.gif" },
-    { n: "02", title: "Setup Không Gian Tĩnh", desc: "Chỉ cần 2 chiếc đèn đặt đúng góc. Setup 1 lần duy nhất, từ nay chỉ việc bật máy là quay. Không còn nỗi lo ánh sáng tệ.", gif: "/gifs/lighting-3d.gif" },
-    { n: "03", title: "Điểm Nối Tàng Hình", desc: "Vứt bỏ hiệu ứng lật trang sến súa. Dùng chuyển động cơ học để nối cảnh, khiến video mượt mà không có điểm chết.", gif: "/gifs/shot-sizes.gif" },
-    { n: "04", title: "Bằng chứng thị giác (B-roll)", desc: "Không chỉ che vết cắt lúc nói vấp, B-roll cung cấp bằng chứng thép để bẻ gãy phòng thủ của khách hàng.", youtubeId: "Ew-yWd0riEQ", aspectRatio: "9 / 16" }
+    { n: "01", title: "Setup Không Gian Tĩnh", desc: "Định vị diện mạo thương hiệu đàng hoàng. Chỉ cần 2 chiếc đèn đúng góc, setup 1 lần duy nhất — tiết kiệm 80% công sức chuẩn bị cho mỗi video.", gif: "/gifs/lighting-3d.gif" },
+    { n: "02", title: "Điều Khiển AI Kịch Bản", desc: "Dùng Prompt chuyên sâu biến ChatGPT/Gemini thành người viết kịch bản cá nhân hóa đúng văn phong của bạn. Gõ chủ đề — nhận kịch bản 2 cột trong 1 phút.", gif: "/gifs/invisible-cut.gif" },
+    { n: "03", title: "Vũ Đạo Ống Kính", desc: "Chữa triệt để bệnh đơ camera. Luyện ánh mắt, đôi tay và sức mạnh của khoảng lặng đóng băng để cơ thể hát cùng ngôn từ một cách tự nhiên.", gif: "/gifs/shot-sizes.gif" },
+    { n: "04", title: "Quy Hoạch B-roll", desc: "Biết cách dùng cảnh trám làm minh họa sắc bén, che lỗi cắt ghép tàng hình. B-roll là bằng chứng thép bẻ gãy phòng thủ của khán giả.", youtubeId: "Ew-yWd0riEQ", aspectRatio: "9 / 16" }
   ],
 
   // ── Mid CTA ──
-  midCtaHeading: "Biến mỗi video thành cỗ máy chuyển đổi tự động.",
-  midCtaSub: "Chỉ với 599.000 VNĐ, bạn sẽ sở hữu kiến trúc thị giác đắt tiền trọn đời.",
-  midCtaBtn: "SỞ HỮU HỆ THỐNG NGAY",
+  midCtaHeading: "Đầu tư hệ thống một lần, giải phóng thời gian mãi mãi.",
+  midCtaSub: "Chỉ với 599.000 VNĐ, bạn sở hữu toàn bộ: 6 buổi học thực chiến + Bộ Prompt AI + Setup Talking Head — trọn đời.",
+  midCtaBtn: "ĐĂNG KÝ VÀ SỞ HỮU BỘ LỆNH AI NGAY",
 
   // ── Before & After ──
-  baLabel: "SỰ KHÁC BIỆT KHI CÓ TƯ DUY ĐÚNG",
-  baHeading: "Sự khác biệt khi nắm trong tay luật chơi hình ảnh:",
+  baLabel: "SỰ KHÁC BIỆT KHI CÓ HỆ THỐNG CHUẨN",
+  baHeading: "Sự khác biệt khi bạn có hệ thống chuẩn.",
   baSub: "",
   baBeforeMedia: "",
   baAfterMedia: "",
-  beforeLabel: "Cách cũ",
-  afterLabel: "Hệ thống mới",
+  beforeLabel: "Trước đây",
+  afterLabel: "Khi có hệ thống",
   beforeItems: [
-    "Lóng ngóng, gượng gạo như trả bài",
-    "Kiệt sức vì phải viết kịch bản hàng ngày",
-    "Ánh sáng phẳng lì, nhìn không uy tín",
-    "Nói vấp phải quay lại từ đầu",
-    "Video buồn ngủ, tỷ lệ thoát trang cao"
+    "Ánh mắt đờ đẫn, vai gồng cứng đọc kịch bản",
+    "Ánh sáng phòng nhợt nhạt, bối cảnh lộn xộn",
+    "Vắt óc 2-3 tiếng chỉ để nghĩ ra chủ đề hôm nay",
+    "Quay hỏng hàng chục lần vì nói vấp không che được",
+    "Kênh đăng không đều, bỏ hoang vì kiệt sức"
   ],
   afterItems: [
-    "Phong thái đĩnh đạc, tự nhiên như hơi thở",
-    "Nhường việc vắt óc viết kịch bản cho AI",
-    "Khung hình nổi khối 3D đắt tiền (setup 1 lần)",
-    "B-roll che vết cắt êm ái, tàng hình",
-    "Khán giả thư giãn, dễ dàng kết nối và tin tưởng"
+    "Góc nghiêng 3/4 tự nhiên, cơ thể minh họa linh hoạt",
+    "Ánh sáng ven ấm tạo khối, phong thái đĩnh đạc chỉn chu",
+    "AI xuất kịch bản 2 cột trong chưa đến 5 phút",
+    "B-roll che lỗi vấp tàng hình, video mượt như dòng chảy",
+    "Quy trình chuẩn hóa — ra video đều đặn, không tốn sức"
   ],
 
   // ── Roadmap ──
   roadmapLabel: "LỘ TRÌNH THỰC CHIẾN",
-  roadmapHeading: "Lộ trình kiến tạo Cỗ máy nhân hiệu",
+  roadmapHeading: "Lộ trình 6 buổi tối ưu hóa quy trình làm nội dung",
   roadmapPreviewHeading: "Trải nghiệm trực quan một bài học mẫu",
-  roadmapPreviewDesc: "Video thực tế nằm trong chương trình học của bạn — đi thẳng vào bản chất và dễ áp dụng.",
+  roadmapPreviewDesc: "Video thực tế nằm trong chương trình học của bạn — đi thẳng vào bản chất và dễ áp dụng ngay.",
   roadmapIframeUrl: "https://www.youtube.com/embed/qi-R_AIWjZM?rel=0&modestbranding=1",
-  roadmapChaptersHeading: "Hệ thống hóa toàn bộ tư duy làm video của bạn:",
+  roadmapChaptersHeading: "Hệ thống hóa toàn bộ quy trình làm video của bạn:",
   stages: [
-    { n: "[1]", title: "Giải phóng ý tưởng", desc: "Sử dụng Trợ lý AI để tự động hóa khâu kịch bản 2 cột. Nhẹ đầu, tập trung vào chuyên môn." },
-    { n: "[2]", title: "Kiến trúc Không gian", desc: "Setup ánh sáng 3 điểm và góc máy 3/4. Quay bao nhiêu video cũng chỉ cần ngồi vào là bấm máy." },
-    { n: "[3]", title: "Vũ đạo Ống kính", desc: "Học cách luân chuyển cỡ cảnh và dùng tay tạo điểm nối tàng hình. Xóa bỏ ma sát thị giác." },
-    { n: "[4]", title: "Bằng chứng thép", desc: "Phủ B-roll đúng lúc đúng chỗ để che vết cắt lúc nói vấp, tạo ra sự mượt mà thuyết phục tuyệt đối." }
+    { n: "[1]", title: "Giải mã thuật toán & Nhịp điệu", desc: "Hiểu luật 3 giây để giữ chân người xem bằng sự mượt mà thay vì các hiệu ứng rối mắt. Nền tảng tư duy trước khi bấm máy." },
+    { n: "[2]", title: "Kiến trúc Không gian", desc: "Setup góc quay Talking Head cố định, đánh sáng 3 điểm tôn nét mặt. Quay bao nhiêu video cũng chỉ cần ngồi vào là bấm máy." },
+    { n: "[3]", title: "Trợ lý AI Kịch bản", desc: "Thực hành dùng Prompt trên ChatGPT/Gemini để viết kịch bản 2 cột hàng loạt. Rút ngắn từ 2 tiếng xuống còn 5 phút." },
+    { n: "[4]", title: "Bằng chứng thị giác (B-roll)", desc: "Cách quy hoạch B-roll (cảnh trám) để minh họa sắc bén và che lỗi nói vấp một cách tàng hình." },
+    { n: "[5]", title: "Vũ đạo trước ống kính", desc: "Luyện 'Cơ thể hát', giao tiếp ánh mắt và sử dụng khoảng lặng đóng băng để loại bỏ hoàn toàn bệnh đơ cứng." },
+    { n: "[6]", title: "Hoàn thiện quy trình", desc: "Đóng gói quy trình tự quay dựng tối giản cá nhân hóa. Ra video đều đặn mà không bị vắt kiệt năng lượng." }
   ],
 
   // ── Instructor ──
   instructorLabel: "NGƯỜI ĐỒNG HÀNH",
-  instructorHeading: "Quay phim có điểm dừng\ndựng phim có điểm chạm",
+  instructorHeading: "Người đồng hành chuẩn hóa\nhình ảnh cùng bạn",
   instructorInitials: "NĐV",
   instructorName: "Nguyễn Đức Việt",
   instructorTitle: "Kỹ sư Công nghệ Phần mềm (ĐH Bách Khoa). 15 năm Giảng viên Mỹ thuật đa phương tiện tại FPT Arena.",
   instructorBio: [
-    "Mình không dạy bạn các mẹo vặt lắt nhắt mau quên. Mình sẽ hệ thống hóa các nguyên lý hình ảnh thành những bước thực hành đơn giản nhất, để bạn tận hưởng niềm vui khi tạo ra một thước phim đàng hoàng và lôi cuốn mọi ánh nhìn."
+    "Kỹ sư Bách Khoa — mang đến tư duy hệ thống hóa, biến việc làm nội dung từ lộn xộn thành một quy trình bài bản, tiết kiệm sức lực tối đa.",
+    "15 năm Giảng viên FPT Arena — nền tảng vững chắc về ngôn ngữ điện ảnh và nghệ thuật điều hướng thị giác.",
+    "Mình không dạy bạn mẹo vặt bấm nút. Mình ở đây để giúp bạn định vị hình ảnh cá nhân một cách đàng hoàng và chỉn chu nhất."
   ],
 
   // ── Bonus ──
@@ -316,8 +323,8 @@ export const DEFAULT_CONTENT: PageContent = {
   // ── CTA ──
   urgencyBar: "⚠ ĐẶC QUYỀN ĐĂNG KÝ HÔM NAY — CHỈ CÒN 599.000 VNĐ",
   ctaLabel: "// BƯỚC CUỐI CÙNG",
-  ctaHeading: "Làm chủ tư duy quay dựng mượt mà ngay hôm nay.",
-  ctaSub: "Trang bị hệ thống kiến trúc thị giác đắt tiền cho những thước phim của bạn. Từ video tiếp theo, sự gượng gạo sẽ hoàn toàn biến mất.",
+  ctaHeading: "Đừng để kỹ thuật lặt vặt cản bước bạn trao đi giá trị chuyên môn.",
+  ctaSub: "Hãy xây dựng một hệ thống để nội dung của bạn tự động lan tỏa, còn bạn được tập trung vào chuyên môn thực sự. Từ video tiếp theo, sự gượng gạo sẽ hoàn toàn biến mất.",
   countdownLabel: "⏳ Ưu đãi kết thúc sau:",
   valueStackTitle: "TỔNG GIÁ TRỊ BẠN NHẬN ĐƯỢC:",
   valueStack: [
@@ -334,8 +341,8 @@ export const DEFAULT_CONTENT: PageContent = {
   footerCopyright: "COPYRIGHT 2026 | NGUYỄN ĐỨC VIỆT",
 
   blocksMeta: {
-    order: ["hero", "pain", "attention", "rule", "cycle", "discovery", "solution", "skills", "midCta", "before-after", "roadmap", "instructor", "bonus", "cta", "footer"],
-    hidden: ["attention", "rule", "cycle"],
+    order: ["hero", "pain", "cycle", "discovery", "aiweapon", "solutions", "skills", "midCta", "before-after", "roadmap", "instructor", "bonus", "cta", "footer"],
+    hidden: ["attention", "rule", "solution"],
     media: {},
     custom: {},
   },
