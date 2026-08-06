@@ -19,6 +19,33 @@ import { CtaSection } from "./sections/CtaSection";
 import LiveSocialProof from "./LiveSocialProof";
 import "./landing.css";
 
+// ── Số Zalo — cập nhật ở đây để thay đổi toàn trang ──────────────
+const ZALO_PHONE = "0393678500"; // ← sửa số thật của bạn
+const ZALO_URL = `https://zalo.me/${ZALO_PHONE}`;
+
+function ZaloFab() {
+  return (
+    <a
+      href={ZALO_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="zalo-fab"
+      aria-label="Chat Zalo"
+    >
+      {/* Zalo icon SVG chính thức */}
+      <svg className="zalo-fab__icon" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="50" height="50" rx="12" fill="white"/>
+        <text x="50%" y="54%" dominantBaseline="middle" textAnchor="middle"
+          style={{ font: "bold 22px Arial, sans-serif", fill: "#0068FF" }}>Z</text>
+      </svg>
+      <span className="zalo-fab__label">
+        Chat Zalo ngay
+        <small>Tư vấn miễn phí</small>
+      </span>
+    </a>
+  );
+}
+
 export default function App() {
   const t = useTheme();
   const c = useContent();
@@ -87,6 +114,7 @@ export default function App() {
         </footer>
       )}
       <LiveSocialProof />
+      <ZaloFab />
     </div>
   );
 }
