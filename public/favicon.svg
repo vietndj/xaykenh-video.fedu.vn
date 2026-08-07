@@ -1,43 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
   <defs>
-    <!-- Dynamic Gold Gradient -->
+    <!-- Warm Champagne Gold Gradient -->
     <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFEFA6" />
-      <stop offset="40%" stop-color="#D4940A" />
-      <stop offset="100%" stop-color="#7B5600" />
+      <stop offset="0%" stop-color="#FFF3D1" />
+      <stop offset="35%" stop-color="#D9B48F" />
+      <stop offset="100%" stop-color="#8C6339" />
     </linearGradient>
-    
-    <!-- Dark Metallic Gradient -->
-    <radialGradient id="dark-grad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#1E1E24" />
-      <stop offset="100%" stop-color="#0B0B0D" />
+
+    <!-- Glow Filter for Sparkle & Play Core -->
+    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Dark Luxury Background Gradient -->
+    <radialGradient id="bg-grad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1C1814" />
+      <stop offset="100%" stop-color="#0A0908" />
     </radialGradient>
   </defs>
 
-  <!-- Squircle Base -->
-  <rect x="16" y="16" width="480" height="480" rx="120" fill="url(#dark-grad)" stroke="url(#gold-grad)" stroke-width="12" />
-  
-  <!-- Outer Aperture Ring -->
-  <circle cx="256" cy="256" r="150" stroke="url(#gold-grad)" stroke-width="8" stroke-dasharray="12 12" opacity="0.6" />
-  <circle cx="256" cy="256" r="130" stroke="url(#gold-grad)" stroke-width="3" />
+  <!-- Base Squircle Box -->
+  <rect x="20" y="20" width="472" height="472" rx="112" fill="url(#bg-grad)" stroke="url(#gold-grad)" stroke-width="12" />
 
-  <!-- Geometric Shutter / Aperture Blades -->
-  <g transform="translate(256, 256)">
-    <!-- Blade 1 -->
-    <path d="M 0,-110 L 80,-40 L 40,80 Z" fill="url(#gold-grad)" opacity="0.85" transform="rotate(0)" />
-    <!-- Blade 2 -->
-    <path d="M 0,-110 L 80,-40 L 40,80 Z" fill="url(#gold-grad)" opacity="0.85" transform="rotate(60)" />
-    <!-- Blade 3 -->
-    <path d="M 0,-110 L 80,-40 L 40,80 Z" fill="url(#gold-grad)" opacity="0.85" transform="rotate(120)" />
-    <!-- Blade 4 -->
-    <path d="M 0,-110 L 80,-40 L 40,80 Z" fill="url(#gold-grad)" opacity="0.85" transform="rotate(180)" />
-    <!-- Blade 5 -->
-    <path d="M 0,-110 L 80,-40 L 40,80 Z" fill="url(#gold-grad)" opacity="0.85" transform="rotate(240)" />
-    <!-- Blade 6 -->
-    <path d="M 0,-110 L 80,-40 L 40,80 Z" fill="url(#gold-grad)" opacity="0.85" transform="rotate(300)" />
+  <!-- Subtle Inner Framing Line -->
+  <rect x="36" y="36" width="440" height="440" rx="96" fill="none" stroke="url(#gold-grad)" stroke-width="2" stroke-dasharray="8 8" opacity="0.3" />
 
-    <!-- Center Play Glass Core -->
-    <circle cx="0" cy="0" r="50" fill="#0B0B0D" stroke="url(#gold-grad)" stroke-width="6" />
-    <polygon points="-12,-18 -12,18 20,0" fill="url(#gold-grad)" />
+  <!-- Cinematic Viewfinder Brackets (4 Corners) -->
+  <!-- Top-Left Bracket -->
+  <path d="M 120 170 L 120 130 Q 120 120 130 120 L 170 120" stroke="url(#gold-grad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Top-Right Bracket -->
+  <path d="M 342 120 L 382 120 Q 392 120 392 130 L 392 170" stroke="url(#gold-grad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Bottom-Left Bracket -->
+  <path d="M 120 342 L 120 382 Q 120 392 130 392 L 170 392" stroke="url(#gold-grad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Bottom-Right Bracket -->
+  <path d="M 342 392 L 382 392 Q 392 392 392 382 L 392 342" stroke="url(#gold-grad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Central Play Core Circle + Play Icon -->
+  <circle cx="256" cy="256" r="88" fill="#120F0C" stroke="url(#gold-grad)" stroke-width="8" filter="url(#gold-glow)" />
+  <polygon points="236,216 236,296 300,256" fill="url(#gold-grad)" />
+
+  <!-- AI Sparkle 4-Point Star (Top Right Accent) -->
+  <g transform="translate(365, 145)">
+    <path d="M 0 -28 Q 0 0 28 0 Q 0 0 0 28 Q 0 0 -28 0 Q 0 0 0 -28 Z" fill="url(#gold-grad)" />
+  </g>
+
+  <!-- AI Sparkle Small Star (Bottom Left Accent) -->
+  <g transform="translate(145, 365) scale(0.6)">
+    <path d="M 0 -28 Q 0 0 28 0 Q 0 0 0 28 Q 0 0 -28 0 Q 0 0 0 -28 Z" fill="url(#gold-grad)" opacity="0.85" />
   </g>
 </svg>

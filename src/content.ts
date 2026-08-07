@@ -137,7 +137,7 @@ const CONTENT_SCHEMA_VERSION = 7;
 
 export const DEFAULT_CONTENT: PageContent = {
   _v: CONTENT_SCHEMA_VERSION,
-  price: "299.000",
+  price: "699.000",
   value: "5.000.000",
 
   transferPrefix: "XAYKENH",
@@ -254,7 +254,7 @@ export const DEFAULT_CONTENT: PageContent = {
 
   // ── Mid CTA ──
   midCtaHeading: "Đầu tư hệ thống một lần, giải phóng thời gian mãi mãi.",
-  midCtaSub: "Chỉ với 299.000 VNĐ, bạn sở hữu toàn bộ: 6 buổi học thực chiến + Bộ Prompt AI + Setup Talking Head — trọn đời.",
+  midCtaSub: "Chỉ với 699.000 VNĐ, bạn sở hữu toàn bộ: 6 buổi học thực chiến + Bộ Prompt AI + Setup Talking Head — trọn đời.",
   midCtaBtn: "ĐĂNG KÝ VÀ SỞ HỮU BỘ LỆNH AI NGAY",
 
   // ── Before & After ──
@@ -321,7 +321,7 @@ export const DEFAULT_CONTENT: PageContent = {
   ],
 
   // ── CTA ──
-  urgencyBar: "⚠ ĐẶC QUYỀN ĐĂNG KÝ HÔM NAY — CHỈ CÒN 299.000 VNĐ",
+  urgencyBar: "⚠ ĐẶC QUYỀN ĐĂNG KÝ HÔM NAY — CHỈ CÒN 699.000 VNĐ",
   ctaLabel: "// BƯỚC CUỐI CÙNG",
   ctaHeading: "Đừng để kỹ thuật lặt vặt cản bước bạn trao đi giá trị chuyên môn.",
   ctaSub: "Hãy xây dựng một hệ thống để nội dung của bạn tự động lan tỏa, còn bạn được tập trung vào chuyên môn thực sự. Từ video tiếp theo, sự gượng gạo sẽ hoàn toàn biến mất.",

@@ -848,6 +848,23 @@ function CheckoutContent() {
         </div>
       </div>
       <LiveSocialProof />
+      <a
+        href="https://zalo.me/0934688632"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="zalo-fab"
+        aria-label="Chat Zalo hỗ trợ thanh toán"
+      >
+        <svg className="zalo-fab__icon" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="50" height="50" rx="12" fill="white"/>
+          <text x="50%" y="54%" dominantBaseline="middle" textAnchor="middle"
+            style={{ font: "bold 22px Arial, sans-serif", fill: "#0068FF" }}>Z</text>
+        </svg>
+        <span className="zalo-fab__label">
+          Hỗ trợ thanh toán
+          <small>Zalo: 0934.688.632</small>
+        </span>
+      </a>
     </div>
   );
 }

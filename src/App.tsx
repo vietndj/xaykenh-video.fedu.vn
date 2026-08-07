@@ -4,6 +4,7 @@ import { useTheme } from "./theme";
 import { ThemeSyncer, Div } from "./components/ui";
 import { HeroSection } from "./sections/HeroSection";
 import { PainSection } from "./sections/PainSection";
+import { TargetAudienceSection } from "./sections/TargetAudienceSection";
 import { AttentionSection } from "./sections/AttentionSection";
 import { RuleSection } from "./sections/RuleSection";
 import { CycleSection } from "./sections/CycleSection";
@@ -14,37 +15,14 @@ import { MidCtaSection } from "./sections/MidCtaSection";
 import { BeforeAfterSection } from "./sections/BeforeAfterSection";
 import { RoadmapSection } from "./sections/RoadmapSection";
 import { InstructorSection } from "./sections/InstructorSection";
+import { TestimonialSection } from "./sections/TestimonialSection";
 import { BonusSection } from "./sections/BonusSection";
+import { PriceAnchorSection } from "./sections/PriceAnchorSection";
 import { CtaSection } from "./sections/CtaSection";
+import { GuaranteeSection } from "./sections/GuaranteeSection";
+import { StickyBottomBar } from "./components/StickyBottomBar";
 import LiveSocialProof from "./LiveSocialProof";
 import "./landing.css";
-
-// ── Số Zalo — cập nhật ở đây để thay đổi toàn trang ──────────────
-const ZALO_PHONE = "0934688632";
-const ZALO_URL = `https://zalo.me/${ZALO_PHONE}`;
-
-function ZaloFab() {
-  return (
-    <a
-      href={ZALO_URL}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="zalo-fab"
-      aria-label="Chat Zalo"
-    >
-      {/* Zalo icon SVG chính thức */}
-      <svg className="zalo-fab__icon" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="50" height="50" rx="12" fill="white"/>
-        <text x="50%" y="54%" dominantBaseline="middle" textAnchor="middle"
-          style={{ font: "bold 22px Arial, sans-serif", fill: "#0068FF" }}>Z</text>
-      </svg>
-      <span className="zalo-fab__label">
-        Chat Zalo ngay
-        <small>Tư vấn miễn phí</small>
-      </span>
-    </a>
-  );
-}
 
 export default function App() {
   const t = useTheme();
@@ -55,21 +33,30 @@ export default function App() {
     <div style={{ background: t.bg, color: t.textBase ?? "#f0f0f0", fontFamily: t.fontBody, minHeight: "100vh", overflowX: "hidden" }}>
       <ThemeSyncer />
 
+      {/* 1. HERO */}
       {!isHidden("hero") && <HeroSection />}
       <Div />
 
+      {/* 2. PAIN */}
       {!isHidden("pain") && <PainSection />}
       <Div />
 
-      {!isHidden("attention") && <AttentionSection />}
+      {/* 3. DÀNH CHO AI */}
+      {!isHidden("target-audience") && <TargetAudienceSection />}
       <Div />
+
+      {/* 4. CHÚ Ý & LUẬT CHƠI (Optional/Hidden in default) */}
+      {!isHidden("attention") && <AttentionSection />}
+      {!isHidden("attention") && <Div />}
 
       {!isHidden("rule") && <RuleSection />}
-      <Div />
+      {!isHidden("rule") && <Div />}
 
+      {/* 5. VÒNG LẶP THỬ SAI */}
       {!isHidden("cycle") && <CycleSection />}
       <Div />
 
+      {/* 6. BẢN CHẤT & HỆ THỐNG */}
       {!isHidden("discovery") && <DiscoverySection />}
       <Div />
 
@@ -77,28 +64,47 @@ export default function App() {
       <Div />
 
       {!isHidden("solution") && <SolutionSection />}
-      <Div />
+      {!isHidden("solution") && <Div />}
 
+      {/* 7. 4 KỸ NĂNG CỐT LÕI */}
       {!isHidden("skills") && <SkillsSection />}
       <Div />
 
+      {/* 8. MID CTA */}
       {!isHidden("midCta") && <MidCtaSection />}
       <Div />
 
+      {/* 9. BEFORE / AFTER */}
       {!isHidden("before-after") && <BeforeAfterSection />}
       <Div />
 
+      {/* 10. LỘ TRÌNH THỰC CHIẾN */}
       {!isHidden("roadmap") && <RoadmapSection />}
       <Div />
 
+      {/* 11. NGƯỜI ĐỒNG HÀNH */}
       {!isHidden("instructor") && <InstructorSection />}
       <Div />
 
+      {/* 12. CẢM NHẬN HỌC VIÊN */}
+      {!isHidden("testimonials") && <TestimonialSection />}
+      <Div />
+
+      {/* 13. QUÀ TẶNG KÈM */}
       {!isHidden("bonus") && <BonusSection />}
       <Div />
 
+      {/* 14. PRICE ANCHORING (SO SÁNH 3 LỰA CHỌN) */}
+      {!isHidden("price-anchor") && <PriceAnchorSection />}
+      <Div />
+
+      {/* 15. ĐĂNG KÝ (CTA FORM) */}
       {!isHidden("cta") && <CtaSection />}
 
+      {/* 16. CAM KẾT HOÀN PHÍ / HỖ TRỢ */}
+      {!isHidden("guarantee") && <GuaranteeSection />}
+
+      {/* 17. FOOTER */}
       {!isHidden("footer") && (
         <footer className="cl-footer" style={{ borderTop: `1px solid ${t.line}`, fontFamily: t.fontBody }}>
           <div className="cl-footer__brand" style={{ fontFamily: t.fontDisplay }}>
@@ -113,8 +119,11 @@ export default function App() {
           <p className="cl-footer__copy">{c.footerCopyright}</p>
         </footer>
       )}
+
+      {/* 18. STICKY BOTTOM BAR & SOCIAL PROOF */}
+      <StickyBottomBar />
       <LiveSocialProof />
-      <ZaloFab />
     </div>
   );
 }
+
