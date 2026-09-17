@@ -3,6 +3,7 @@ import { useTheme } from '../theme';
 import { FadeIn, Label, SH, Sec, Div } from '../components/ui';
 
 const TESTIMONIALS = [
+  { name: 'Học viên Phân Bón Nông Nghiệp', role: 'Sản xuất & Phân phối Phân bón', text: 'Ngành của em nhiều cảnh đẹp và tư liệu nhưng trước chỉ biết giơ máy lên quay. Lướt FB va vào video anh Việt, xem 5 clip là điền form chốt đi học luôn không cần tư vấn nhiều. Trước chưa từng biết anh là ai, không mất 7 tiếng để chốt đơn, lúc chuyển khoản còn chưa kịp follow page thầy haha!', stars: 5 },
   { name: 'Anh Minh', role: 'Chuyên gia Tài chính', text: 'Trước kia mỗi lần quay video tôi mất 3-4 tiếng chỉ để viết kịch bản. Giờ với Prompt AI, 15 phút là xong. Video tự nhiên hơn nhiều vì không phải cố nhớ từng chữ nữa.', stars: 5 },
   { name: 'Chị Phương', role: 'Founder Thương hiệu Mỹ phẩm', text: 'Điều tôi thích nhất là hệ thống setup 1 lần xong dùng mãi. Mỗi ngày ngồi vào bàn, bật đèn lên, bấm quay — đơn giản vậy thôi mà kênh tăng trưởng đều đặn.', stars: 5 },
   { name: 'Bạn Hùng', role: 'Coach Sức khỏe', text: 'Khóa học này giải quyết đúng vấn đề của tôi: bệnh đơ camera. Sau 2 tuần luyện Vũ đạo ống kính, tôi quay video thoải mái như đang nói chuyện với bạn bè vậy.', stars: 5 },
